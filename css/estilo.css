@@ -1,0 +1,51 @@
+* {
+   box-sizing: border-box;
+}
+
+h1 {
+    color:blue;
+    text-align: center;
+}
+
+#column {
+    top: 50%;
+    padding: auto;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25px;
+    margin-right: 50px;
+    border: solid 3px black;
+
+    
+}
+
+.row{
+  
+    margin-left: 10px;
+    margin-right: 50px;}
+
+.container{
+    position: relative;
+    margin-top: 7%;
+    margin-bottom: 50%;
+    background: rgba(0,0,0,0.5);
+    border: solid 3px black;
+    width: 50%;
+    padding-bottom: 10% ;
+    
+   
+}
+
+.input{
+    position: relative;
+    margin-right: 10px;
+    transform: translate(-50%+50%);
+    border: solid 3px black;    
+}
+#history{
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15%;
+    margin-top: 10px;
+  
+}
